@@ -1,6 +1,7 @@
 import Input from "./input";
 import {useState} from "react";
 import Footer from "./footer";
+import Work from "./work";
 
 export default function RegisterForm(){
     const initialState = {
@@ -41,6 +42,7 @@ export default function RegisterForm(){
             <Input title="Password" type="password" placeholder="Create a password for your account" onChange={handleChange} value={formData.password} id="name" error={error.password} />
             <Input title="Mobile Number" type="text" placeholder="Mobile Number" onChange={handleChange} value={formData.mobile} id="name" error={error.mobile} />
         </form>
+        <Work/>
         <Footer />
     </div>
 }
