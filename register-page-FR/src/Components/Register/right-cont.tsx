@@ -4,9 +4,9 @@ import { AiFillCheckCircle } from 'react-icons/ai';
 
 
 export default function RightContainer(){
-    return <div className="main-container w-10 basis-1/4 ">
+    return <div className="main-container w-10 basis-1/4 max-h-72">
         <div className="boy-picture">
-            <img src={greenBoy}/>
+            <img alt="boy" src={greenBoy}/>
             <h2>On registering, you can</h2>
             <div className="about-box">
                 <div>
