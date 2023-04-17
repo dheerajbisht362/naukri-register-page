@@ -8,7 +8,8 @@ export default {
     extend: {},
     colors: {
       whitebg: '#FEFEFF',
-      lightbluebg: '#698CFF'
+      lightbluebg: '#698CFF',
+      lightbluebg2: '#FBFBFF',
     }
   },
   plugins: [],
