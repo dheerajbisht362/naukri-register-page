@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 require("dotenv").config();
-const registerRoute = require('./routes/registerRoute');
+const registerRoute = require('./routes/userRoute');
 
 app.use("/", registerRoute)
 
