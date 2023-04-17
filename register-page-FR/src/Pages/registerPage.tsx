@@ -1,12 +1,10 @@
-import Footer from "../Components/Register/footer"
-import RightContainer from "../Components/Register/right-cont"
-import Work from "../Components/Register/work"
+import RegisterNavbar from "../Components/Register/navbar"
+import RegisterBody from "../Components/Register/registerBody"
 
 
 export default function RegisterPage(){
     return <div>
-        {/* <RightContainer/>
-        <Footer /> */}
-        <Work/>
+            <RegisterNavbar/>
+            <RegisterBody />
         </div>
 }

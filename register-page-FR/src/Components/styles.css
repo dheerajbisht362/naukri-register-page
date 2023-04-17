@@ -3,15 +3,12 @@
 }
 
 .main-container{
-    width: 300px;
     margin: 155px 0 0;
     background: #fff;
     border: 1px dashed #d3e1ea;
     border-radius: 20px 14px;
     padding: 65px 32px 32px;
     position: relative;
-    margin: auto;
-    margin-top: 50px;
 }
 .boy-picture{
     margin: auto;
