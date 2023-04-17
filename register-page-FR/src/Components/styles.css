@@ -69,3 +69,81 @@
     color: #8292b4;
     font-size: 11px;
 }
+
+.work-container{
+    width: 70%;
+    border: 1px solid black;
+    height: auto;
+    float: right;
+}
+
+.work-status{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.work-status > div{
+    display: flex;
+    border: 1px solid #d3e1ea;
+    width: 49%;
+    padding: 14px 12px;
+    border-radius: 20px 8px
+}
+
+
+.inner-container{
+    width:70%;
+    border: 1px solid red;
+}
+
+.inner-container > p{
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: 600;
+    color: #445578;
+}
+
+.si-icon{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 25px;
+    color: #457eff;
+}
+
+.work-status h3{
+    color: #457eff;
+    font-weight:600;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.work-status p{
+    font-size: 13px;
+    color: #8292b4;
+}
+
+.content-div{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.resume-container{
+    width: 60%;
+    border: 1px solid black;
+}
+.resume-container2{
+    margin-top: 30px;
+    border: 1px solid red;
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 28px;
+}
+
+.resume-container2 button{
+    width: 100px;
+    background-color: #ff7555;
+    padding: 7px 14px;
+}
