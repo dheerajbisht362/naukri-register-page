@@ -1,7 +1,7 @@
 import Input from "./input";
 import {useState} from "react";
-import Footer from "./footer";
 import Work from "./work";
+import Footer from "../footer";
 
 export default function RegisterForm(){
     const initialState = {
@@ -43,6 +43,5 @@ export default function RegisterForm(){
             <Input title="Mobile Number" type="text" placeholder="Mobile Number" onChange={handleChange} value={formData.mobile} id="name" error={error.mobile} />
         </form>
         <Work/>
-        <Footer />
     </div>
 }
