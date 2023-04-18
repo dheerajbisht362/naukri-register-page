@@ -1,10 +1,12 @@
-import RegisterNavbar from "../Components/Register/navbar"
+import Layout from "../Components/Layout"
 import RegisterBody from "../Components/Register/registerBody"
+import Header from "../Components/header"
 
 
 export default function RegisterPage(){
     return <div>
-            <RegisterNavbar/>
-            <RegisterBody />
+            <Layout>
+                <RegisterBody />
+            </Layout>
         </div>
 }
