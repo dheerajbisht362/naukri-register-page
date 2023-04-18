@@ -2,8 +2,9 @@ const express = require('express');
 const app = express();
 require("dotenv").config();
 const registerRoute = require('./routes/userRoute');
-const dbConnection = require('./Config/db')
+const dbConnection = require('./config/db')
 
+//middleware
 app.use(express.json());
 app.use("/", registerRoute);
 

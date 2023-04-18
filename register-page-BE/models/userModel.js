@@ -1,5 +1,6 @@
 const mongoose = require('mongoose');
 const bcrypt = require('bcrypt');
+
 const userRegistrationSchema = mongoose.Schema({
     name: {
         type: String,
@@ -11,22 +12,26 @@ const userRegistrationSchema = mongoose.Schema({
     },
     password: {
         type: String,
-        required: [true, "password is required"]
+        required: [true, "password is required"],
+        min: [6, 'Must be at least 6'],
     },
     mobile: {
-        type: Number,
+        type: String,
         required: [true, "mobile number is required"]
     },
     workStatus: {
         type: String,
         required: [true, "work status is required"]
     },
+    city: {
+        type: String,
+    },
     resume: {
         type: String,
         required: [true, "resume is required"]
     },
     newsletter: {
-        type: String,
+        type: Boolean,
         required: [true, "newsletter is required"]
     }
 }, {
