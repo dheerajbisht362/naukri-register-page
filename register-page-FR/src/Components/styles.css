@@ -1,78 +1,81 @@
-*{
+* {
     font-family: Inter;
 }
 
-.main-container{
+.main-container {
     margin: 155px 0 0;
     background: #fff;
     border: 1px dashed #d3e1ea;
     border-radius: 20px 14px;
     padding: 65px 32px 32px;
 }
-.boy-picture{
+
+.boy-picture {
     margin: auto;
     position: relative;
 }
 
-.boy-picture img{
+.boy-picture img {
     margin: auto;
     margin-top: -117px;
 }
 
-.boy-picture h2{
+.boy-picture h2 {
     font-size: 19px;
     font-weight: 700;
 }
 
-.boy-picture p{
+.boy-picture p {
     font-size: 13px;
     color: #445578;
 }
 
-.about-box{
+.about-box {
     margin-top: 10px;
     width: 90%;
 }
-.about-box div{
+
+.about-box div {
     display: flex;
     padding: 8px;
 }
 
-.about-box span{
+.about-box span {
     padding-right: 5px;
 }
 
-.footer-container{
+.footer-container {
     width: auto;
     justify-content: center;
     align-items: center;
 }
 
-.footer-container ul{
+.footer-container ul {
     display: flex;
     justify-content: center;
     font-size: 11px;
 }
 
-.footer-container li{
+.footer-container li {
     border-right: 1px solid #d3e1ea;
     padding-right: 10px;
     margin-right: 10px;
     color: #457eff;
 }
-.footer-container p{
+
+.footer-container p {
     text-align: center;
     color: #8292b4;
     font-size: 11px;
 }
 
-.work-status{
+.work-status {
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
 }
 
-.work-status > div{
+.work-status>div {
     display: flex;
     border: 1px solid #d3e1ea;
     width: 49%;
@@ -80,36 +83,37 @@
     border-radius: 20px 8px
 }
 
-.si-icon{
+.si-icon {
     display: inline-block;
     vertical-align: middle;
     font-size: 25px;
     color: #457eff;
 }
 
-.work-status h3{
+.work-status h3 {
     color: #457eff;
-    font-weight:600;
+    font-weight: 600;
     font-size: 15px;
     line-height: 20px;
 }
 
-.work-status p{
+.work-status p {
     font-size: 13px;
     color: #8292b4;
 }
 
-.content-div{
+.content-div {
     display: flex;
     flex-direction: column;
     margin-left: 10px;
 }
 
-.resume-container{
+.resume-container {
     width: 60%;
     border: 1px solid black;
 }
-.resume-container2{
+
+.resume-container2 {
     margin-top: 30px;
     color: white;
     font-size: 13px;
@@ -117,8 +121,241 @@
     border-radius: 28px;
 }
 
-.resume-container2 button{
+.resume-container2 button {
     width: 100px;
     background-color: #ff7555;
     padding: 7px 14px;
+}
+
+.login-form {
+    width: 453px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px 60px;
+    box-shadow: 0 9px 16px 0 rgba(0, 106, 194, .2);
+    height: 532px;
+    position: relative;
+    z-index: 9999;
+    background-color: white;
+}
+
+.login-form .heading h3 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.login-form label {
+    font-size: 12px;
+    font-weight: 500;
+    color: 091e42;
+    margin-bottom: 3px;
+}
+
+.login-form input {
+    width: 100%;
+    font-size: 13px;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.login-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form .forget-pass {
+    text-align: right;
+    margin-top: 5px;
+    color: #4a90e2;
+    font-size: 11px;
+}
+
+.login-form .login-btn {
+    background-color: #4a90e2;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+    padding: 5px;
+}
+
+.login-form .otp-btn {
+    color: #4a90e2;
+    font-size: 13px;
+    margin-top: 4px;
+    width: 100%;
+    padding: 5px;
+}
+
+.login-form .hr {
+    height: 1px;
+    color: gray;
+}
+
+.login-form .seperator {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.login-form .seperator {
+    color: #8993a4;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.login-form .google {
+    display: flex;
+    align-items: center;
+    padding: 0px 15px;
+    height: 40px;
+    border-radius: 20px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .24);
+    cursor: pointer;
+}
+
+
+.login-form .title {
+    color: #757575;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+    margin-left: 70px;
+}
+
+.register {
+    width: 522px;
+    height: 480px;
+    padding: 4rem;
+    box-shadow: 0 9px 16px 0 rgba(0, 106, 194, .2);
+    position: relative;
+}
+
+.register>div {
+    margin-bottom: 10px;
+}
+
+.register .heading {
+    color: #091e42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+
+.register .point {
+    color: #091e42;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.register .list {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.register .register-btn {
+    color: #4a90e2;
+    width: 223px;
+    border: 1px solid #4a90e2;
+    margin-top: 26px;
+
+}
+
+.register .register-btn button {
+    font-weight: 500;
+    font-size: 14px;
+    height: 38px;
+    width: 100%;
+}
+
+.register .banner {
+    position: absolute;
+    bottom: -9px;
+    right: 0;
+}
+
+.login-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    background-color: #FAFAFA;
+    position: relative;
+    margin: 0px 0px 140px;
+    padding-top: 100px;
+}
+
+.login-main>div {
+    background-color: white !important;
+}
+
+.header-login {
+    width: 90%;
+    margin: auto;
+    padding: 20px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.header-login .nav-header {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    margin-left: 60px;
+}
+
+.header-login .nav-header input {
+    border: 1px solid #e7e7f1;
+    border-radius: 20px;
+    font-size: 14px;
+    padding: 10px 10px 10px 15px;
+    color: #717b9e;
+    box-shadow: 0 6px 12px rgba(30, 10, 58, .04);
+}
+
+.header-login .btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 30px;
+}
+
+.header-login .login-btn {
+    background-color: #fff;
+    border: 1px solid #275df5;
+    border-radius: 20px;
+    color: #275df5;
+    height: 40px;
+    width: 82px;
+    font-weight: 700;
+}
+
+.header-login .register-btn {
+    background-color: #f05537;
+    border: 1px solid #f05537;
+    border-radius: 20px;
+    color: #fff;
+    height: 40px;
+    width: 101px;
+    font-weight: 700;
+}
+
+.employee {
+    display: flex;
+    align-items: center;
+    border-left: 1px solid black;
+    margin-left: 25px;
+    padding-left: 25px;
+}
+
+.error-page {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 700;
+    font-size: 2rem;
 }
