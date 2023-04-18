@@ -70,6 +70,7 @@
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
+    margin-bottom: 1.5em;
 }
 
 .work-status > div{
@@ -106,19 +107,78 @@
 }
 
 .resume-container{
-    width: 60%;
-    border: 1px solid black;
+    width: 50%;
+    display: flex;
+    background: #fff;
+    border: 1px solid #eaf1f5;
+    gap: 7px;
+    border-radius: 3rem;
+    margin-top: 8px;
+   
 }
 .resume-container2{
-    margin-top: 30px;
     color: white;
     font-size: 13px;
     font-weight: 600;
     border-radius: 28px;
+   
 }
 
 .resume-container2 button{
-    width: 100px;
+    /* width: 100px; */
     background-color: #ff7555;
     padding: 7px 14px;
+    border-radius: 3rem;
+}
+.pdf-validate{
+    color: #8292b4;
+    margin-top: 0;
+    font-size: 11px;
+    line-height: 14px;
+    text-align: center;
+    margin: auto;
+}
+.checkbox{
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 2rem;
+}
+.input-check:hover{
+    background-color: yellow;
+    color: brown;
+}
+.whatsapp-updates{
+    display: flex;
+    font-size: 13px;
+    line-height: 20px;
+    margin-left: 5px;
+    font-weight: 400;
+}
+.whatsapp-icon{
+    margin-top: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+    
+}
+.policy-container{
+    margin-top: 2rem;
+}
+.policy-para{
+    font-size: 11px;
+    line-height: 20px;
+}
+.policy{
+    color: #457eff;
+}
+.register-btn{
+    font-size: 17px;
+    line-height: 22px;
+    padding: 12px 24px;
+    border-radius: 23px;
+    font-weight: 600;
+    /* background-color: #457eff; main color not disable */
+    color:white;
+    background-color: #d3e1ea;
+    margin-top: 6px;
+    margin-bottom: 4rem;
 }
